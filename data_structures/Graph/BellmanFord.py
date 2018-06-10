@@ -9,6 +9,8 @@ def printDist(dist, V):
 			print(i,"\t","INF",end="\t")
 		print()
 
+
+
 def BellmanFord(graph, V, E, src):
 	mdist=[float('inf') for i in range(V)]
 	mdist[src] = 0.0
